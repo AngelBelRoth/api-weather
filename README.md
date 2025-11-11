@@ -1,9 +1,4 @@
-# 🌦 api-weather
-
-[![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)](https://nodejs.org/)  
-[![Express.js](https://img.shields.io/badge/Express.js-Server-blue?logo=express)](https://expressjs.com/)  
-[![Weather API](https://img.shields.io/badge/Data-Source-OpenWeather/YourAPI-lightblue)](https://openweathermap.org/)  
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# 🌦 Weather API
 
 > A RESTful API service exposing weather data (current + forecast) via a clean, developer-friendly interface.
 
@@ -11,15 +6,14 @@
 
 ## Overview
 
-The **api-weather** project wraps external weather data sources (like OpenWeatherMap API or similar) to provide a unified, simplified API for retrieving current conditions, forecasts, and optionally historical weather. Great for front-end dashboards, mobile apps, or IoT projects.
+The **Weather API** project wraps external weather data sources (like OpenWeatherMap API or similar) to provide a unified, simplified API for retrieving current conditions, forecasts, and optionally historical weather. Great for front-end dashboards, mobile apps, or IoT projects.
 
 ---
 
 ## Features
 
-
 - Display temperature both in Fahrenheit & Celcius
-- - Retrieve current weather for a location (by city / lat-lon)
+- Retrieve current weather for a location (by city / lat-lon)
 - Clean, consistent JSON responses tailored for client use  
 - Environment variable configuration for API keys and ports  
 - Error handling and input validation built in  
